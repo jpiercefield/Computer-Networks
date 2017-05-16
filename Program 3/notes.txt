@@ -1,0 +1,15 @@
+James Logan Piercefield
+CSC 4200 - Computer Networks  
+  
+   In the command prompt, go to the folder where the files are located.
+Then, type in: "perl Server.pl" (to run the server), and "perl Client.pl" (to run the client).
+
+You can run multiple clients, which is advised to see the full use of this program.
+Let's say you want to send a message from the 2nd client you connected to the first,
+just type in on the second client: "1: Message here". This will send the message to the
+first client. On the server, you will be able to see all of the messages sent private
+and non-private. Also, you will be able to see which client sent the message. If you want
+to disconnect a client.. Simply type in from client 1 or any other client: "1d" to disconnect 
+client 1.
+
+You can change the IP address within the code, line 14 in Server.pl and Client.pl.
